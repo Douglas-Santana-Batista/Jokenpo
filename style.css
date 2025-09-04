@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-row: auto;
+  text-align: center;
+}
+#resultado {
+  height: 18px;
+  margin: auto;
+}
+img {
+  max-width: 200px;
+  border-radius: 5px;
+}
+div {
+  align-content: center;
+}
+#maquina {
+  min-height: 49vh;
+  background-color: rgba(126, 192, 236, 0.116);
+}
+#jogador {
+  min-height: 49vh;
+  background-color: rgba(57, 156, 223, 0.116);
+}
+.opcao {
+  background-color: rgba(57, 157, 223, 0);
+  transition-duration: 1s;
+}
+.opcao:hover {
+  background-color: rgba(57, 157, 223, 0.562);
+}
+
+.opcao:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

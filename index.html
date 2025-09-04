@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div id="maquina">
+        <p>Maquina</p>
+        <img id="interrogacao" src="interrogacao.png" alt="" />
+        <p id="pontuacaoMaquina"></p>
+      </div>
+      <div id="resultado"></div>
+      <div id="jogador">
+        <p>jogador</p>
+        <img class="opcao" onclick="escolha(event)" src="papel.png" id="papel" />
+        <img class="opcao" onclick="escolha(event)" src="tesoura.png" id="tesoura" />
+        <img class="opcao" onclick="escolha(event)" src="pedra.png" id="pedra" />
+        <p id="pontuacaoJogador"></p>
+      </div>
+    </div>
+    <script src="jokenpo.js"></script>
+  </body>
+</html>
