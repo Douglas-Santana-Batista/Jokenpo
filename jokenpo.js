@@ -42,16 +42,16 @@ function desativar() {
     }, 1500);
   });
 }
-//função principal
+
 function escolha(event) {
-  document.getElementById("interrogacao").src = "interrogacao.png"; //volta a interrogação
-  desativar(); //função para desativar os potões por 1.5 segundos
-  const jogador = event.target.id; //coletando o id do  evento que foi passado pelo onclick do html
+  document.getElementById("interrogacao").src = "interrogacao.png";
+  desativar();
+  const jogador = event.target.id;
   document.getElementById("resultado").innerHTML = "A máquina está escolhendo...";
   setTimeout(function () {
-    const maquina = escolhaMaquina(); //chamada da função para escolher uma imagem aleátória
-    atualizarImagemMaquina(maquina); //chamada da função para imprimir essa imagem escolhida na tela
+    const maquina = escolhaMaquina();
+    atualizarImagemMaquina(maquina);
 
-    comparar(jogador, maquina); //chamada da função para comparar as imagens e adicionar pontos ao ganhador
+    comparar(jogador, maquina);
   }, 1000);
 }
