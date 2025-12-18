@@ -15,25 +15,48 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6512542187143331" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="ad-container">
-      <!-- Anúncio Banner -->
-      <ins class="adsbygoogle" style="display: block" data-ad-client="ca-pub-SEU_ID_AQUI" data-ad-slot="SEU_SLOT_AQUI" data-ad-format="auto" data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+    <div>
+      <h1>Sobre o jogo!</h1>
+      <br />
+      <p class="sobre">
+        O Jokenpô, também conhecido como Pedra, Papel e Tesoura, é um jogo clássico onde dois jogadores fazem uma escolha ao mesmo tempo. Cada escolha possui uma regra de vitória e derrota, tornando o jogo simples, rápido e divertido. É um dos jogos
+        mais populares do mundo, usado tanto para entretenimento quanto para decisões rápidas do dia a dia.
+      </p>
+      <h1>Regras do jogo</h1>
+      <p class="sobre">
+        O jogo possui três opções possíveis:<br />
+        <br />
+        Pedra<br />
+        <br />
+        Papel<br />
+        <br />
+        Tesoura<br />
+        <br />
+        Cada rodada é decidida da seguinte forma:<br />
+        <br />
+        ✊ Pedra vence ✌️ Tesoura<br />
+        <br />
+        ✌️ Tesoura vence ✋ Papel<br />
+        <br />
+        ✋ Papel vence ✊ Pedra<br />
+        <br />
+        Quando ambos escolhem a mesma opção, ocorre um empate<br />
+        <br />
+        Essas regras criam um ciclo equilibrado, onde nenhuma escolha é invencível.
+      </p>
     </div>
     <div>
       <div id="maquina">
         <p>Maquina</p>
-        <img id="interrogacao" src="interrogacao.png" alt="" />
+        <img id="interrogacao" src="/images/interrogacao.png" alt="" />
         <p id="pontuacaoMaquina"></p>
       </div>
       <div id="resultado"></div>
       <div id="jogador">
         <p>jogador</p>
-        <img class="opcao" onclick="escolha(event)" src="papel.png" id="papel" />
-        <img class="opcao" onclick="escolha(event)" src="tesoura.png" id="tesoura" />
-        <img class="opcao" onclick="escolha(event)" src="pedra.png" id="pedra" />
+        <img class="opcao" onclick="escolha(event)" src="/images/papel.png" id="papel" />
+        <img class="opcao" onclick="escolha(event)" src="/images/tesoura.png" id="tesoura" />
+        <img class="opcao" onclick="escolha(event)" src="/images/pedra.png" id="pedra" />
         <p id="pontuacaoJogador"></p>
       </div>
     </div>

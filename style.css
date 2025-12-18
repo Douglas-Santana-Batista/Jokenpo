@@ -4,6 +4,13 @@ body {
   display: grid;
   grid-row: auto;
   text-align: center;
+  background-color: rgba(57, 156, 223, 0.116);
+}
+.sobre {
+  font-size: 18px;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
 }
 #resultado {
   height: 18px;
@@ -18,11 +25,9 @@ div {
 }
 #maquina {
   min-height: 49vh;
-  background-color: rgba(126, 192, 236, 0.116);
 }
 #jogador {
   min-height: 49vh;
-  background-color: rgba(57, 156, 223, 0.116);
 }
 .opcao {
   background-color: rgba(57, 157, 223, 0);

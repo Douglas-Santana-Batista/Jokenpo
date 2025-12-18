@@ -6,7 +6,7 @@ let pontuaçãoJogador = 0;
 let pontuaçãoMaquina = 0;
 
 function atualizarImagemMaquina(escolha) {
-  document.getElementById("interrogacao").src = escolha + ".png";
+  document.getElementById("interrogacao").src = "/images/" + escolha + ".png";
 }
 
 function comparar(jogador, maquina) {
@@ -44,7 +44,7 @@ function desativar() {
 }
 
 function escolha(event) {
-  document.getElementById("interrogacao").src = "interrogacao.png";
+  document.getElementById("interrogacao").src = "/images/interrogacao.png";
   desativar();
   const jogador = event.target.id;
   document.getElementById("resultado").innerHTML = "A máquina está escolhendo...";
